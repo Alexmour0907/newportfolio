@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" alt="My Logo" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Frontended developer</p>
+            <h1>Hi, I'm <span>Alexander</span><br>Mouritsen from Norway</h1>
+        </div>
+    </div>
+</div>
+    <!-- about -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Fugit dolore, sint architecto quasi harum, sequi aperiam ratione 
+                ducimus accusantium vero eum dolores ullam distinctio corrupti quod quas 
+                numquam, molestiae obcaecati!</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div id="skills" class="tab-contents active-tab">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing web interfaces</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                    </ul>
+                </div>
+                <div id="experience" class="tab-contents">
+                    <ul>
+                        <li><span>2024 - Current</span><br>information technology and media production study</li>
+                    </ul>
+                </div>
+                <div id="education" class="tab-contents">
+                    <ul>
+                        <li><span>2024 - Current</span><br>CS & media prod. student at Amalie Skram upper secondary school</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -------service)------- -->
+ <div id="">
+
+ </div>
+
+
+ 
+<!-- ---kommentert ut js kode, aktiv kode på script.js--- -->
+<script>
+
+    // var tablinks = document.getElementsByClassName("tab-links");
+    // var tabcontents = document.getElementsByClassName("tab-contents");
+
+    // function opentab(tabname){
+    //     for(tablink of tablinks){
+    //         tablink.classList.remove("active-link");
+    //     }
+    //     for(tabcontent of tabcontents){
+    //         tabcontent.classList.remove("active-tab");
+    //     }
+    //     event.currentTarget.classList.add("active-link")
+    //     document.getElementById(tabname).classList.add("active-tab")
+    // }
+
+
+</script>
+
+</body>
+</html>
